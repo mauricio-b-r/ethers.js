@@ -423,4 +423,10 @@ function injectCommonNetworks(): void {
             url: "http:/\/api-testnet.bscscan.com"
         }
     });
+    registerEth("lachain", 274, {
+        altNames: [ "LaChain", "la-chain" ],
+    });
+    registerEth("latestnet", 418, {
+        altNames: [ "LaTestnet", "la-testnet" ],
+    });
 }
